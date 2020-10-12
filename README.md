@@ -1,44 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Versão web do Happy
 
-## Available Scripts
+## Projeto com intuito de ajudar pessoas a se conectarem com orfanatos locais de Porto Alegre, RS :)
 
-In the project directory, you can run:
+![NPM](https://img.shields.io/npm/l/express)
 
-### `yarn start`
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#instalacao">Instalação</a> • 
+ <a href="#status">Status</a> • 
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="objetivo">:dart: Objetivo</h2>
+Este projeto está sendo desenvolvido na NextLevelWeek #3, evento organizado pela RocketSeat. O objetivo se trata em realizar um app para facilitar a visita dos usuários em orfanatos próximos da cidade em questão (Porto Alegre).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<h2 id="tecnologias">:wrench: Tecnologias</h2>
 
-### `yarn test`
+As seguintes tecnologias foram utilizadas no projeto deste repositório:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/)
+- [React-Router](https://reactrouter.com/)
+- [Leaflet](https://leafletjs.com/)
 
-### `yarn build`
+<h2 id="instalacao">:computer: Instalação</h2>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Antes de começar, você vai precisar ter o [Git](https://git-scm.com) e o [NPM](https://www.npmjs.com/) ou [YARN](https://yarnpkg.com/) instalados em sua máquina.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este projeto está dividido em três repositórios (web, backend e mobile), cada parte possui um guia com sua respectiva instalação.
 
-### `yarn eject`
+### Rodando o frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone este repositório
+$ git clone https://github.com/Gabriel-Cervo/Happy-Web-React
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Happy-Web-React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Instale as dependências
+$ npm install ou yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Aviso! Antes da execução, é necessário em que haja um arquivo .env contendo as informações da key de acesso ao mapbox, caso não há, crie uma conta e peça a mesma.
+# Como abaixo:
+# REACT_APP_MAPBOX_TOKEN=<URL_DA_API>
 
-## Learn More
+# Execute a aplicação
+$ npm start ou yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# O servidor inciará na porta:3000 por padrão - acesse: http://localhost:3000.
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="status">Status: Em andamento :rocket:</h2>
+
+<br />
+<br />
+
+### 👋🏽 Entre em contato comigo:
+
+[![Linkedin Badge](https://img.shields.io/badge/Gabriel--Cervo-Linkedin-blue?link=https://www.linkedin.com/in/joaogabrielcervo/?style=flat-square&logo=Linkedin)](https://www.linkedin.com/in/joaogabrielcervo)
+[![Gmail Badge](https://img.shields.io/badge/Gabriel--Cervo-Email-red?link=mailto:joaogabrieldouradocervo@gmail.com/?style=flat-square&logo=Gmail&logoColor=white)](mailto:joaogabrieldouradocervo@gmail.com)

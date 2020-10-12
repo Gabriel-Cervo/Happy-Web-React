@@ -8,7 +8,7 @@
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#instalacao">Instalação</a> • 
- <a href="#status">Status</a> • 
+ <a href="#status">Status</a>
 </p>
 
 <h2 id="objetivo">:dart: Objetivo</h2>
@@ -34,7 +34,7 @@ Este projeto está dividido em três repositórios (web, backend e mobile), cada
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Gabriel-Cervo/Happy-Web-React
+$ git clone https://github.com/Gabriel-Cervo/Happy-Web-React.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Happy-Web-React
@@ -53,9 +53,6 @@ $ npm start ou yarn start
 ```
 
 <h2 id="status">Status: Em andamento :rocket:</h2>
-
-<br />
-<br />
 
 ### 👋🏽 Entre em contato comigo:
 

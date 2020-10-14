@@ -1,6 +1,6 @@
 # Versão web do Happy
 
-## Projeto com intuito de ajudar pessoas a se conectarem com orfanatos locais de Porto Alegre, RS :)
+### Projeto com intuito de ajudar pessoas a se conectarem com orfanatos locais de Porto Alegre, RS :)
 
 ![NPM](https://img.shields.io/npm/l/express)
 

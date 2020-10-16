@@ -2,8 +2,6 @@
 
 ### Projeto com intuito de ajudar pessoas a se conectarem com orfanatos locais de Porto Alegre, RS :)
 
-![NPM](https://img.shields.io/npm/l/express)
-
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
@@ -52,7 +50,7 @@ $ npm start ou yarn start
 # O servidor inciará na porta:3000 por padrão - acesse: http://localhost:3000.
 ```
 
-<h2 id="status">Status: Em andamento :rocket:</h2>
+<h2 id="status">Status: Completo :white_check_mark:</h2>
 
 ### 👋🏽 Entre em contato comigo:
 
